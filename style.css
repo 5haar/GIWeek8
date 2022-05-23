@@ -1,0 +1,115 @@
+* {
+    margin: 0px auto;
+}
+
+body {
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.row2 {
+    display: inline-flex;
+}
+
+.white {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+.black {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.board {
+    background-color: antiquewhite;
+    margin: -50px;
+}
+
+.chessBoard {
+    height: 100vh;
+    max-width: 1000px;
+}
+
+
+
+.space {
+    height: 10vh;
+}
+
+.flag {
+    height: 100vh;
+}
+
+.redLine {
+    color: red;
+    background-color: red;
+}
+
+.whiteLine {
+    background-color: white;
+    color: white;
+}
+.stars {
+     background-color: darkblue;
+     font-size: 2em;
+     color: white;
+}
+
+.text {
+    display: inline-grid;
+    margin: 0px;
+}
+
+.products {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+
+}
+
+
+.products_row_one {
+    display: grid;
+    margin: 2em;
+}
+
+.products_row_two {
+    display: grid;
+    margin: 2em;
+    justify-content: center;
+}
+
+.products_row_one figure figcaption small {
+    color: white;
+}
+
+.products_row_two figure figcaption small {
+    color: white;
+}
+
+.products figure {
+    border: 1px solid white;
+    margin: 1em;
+}
+
+
+
+.products figure a img {
+    max-height: 300px;
+    width: 100%;
+}
+
+.price {
+    font-size: 2em;
+}
